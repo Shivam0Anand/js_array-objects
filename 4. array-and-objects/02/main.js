@@ -64,3 +64,26 @@ penguin[0].canFly = true;
 penguin[0].sayHello();
 
 // 9
+
+for (var i = 0; i < penguin.length; i++) {
+  console.log(penguin[i].name);
+}
+
+// 10
+
+for (var i = 0; i <= penguin.length; i++) {
+  penguin[i].sayHello();
+}
+
+// 11
+
+for (var i = 0; i < penguin.length; i++) {
+  penguin[i].noOfFeet = 2;
+}
+
+//12
+for (var i = 0; i <= penguin.length; i++) {
+  if (penguin[i].canFly == true) {
+    console.log(penguin[i].name + " can Fly!");
+  }
+}
